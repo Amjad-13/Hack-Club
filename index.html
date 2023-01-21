@@ -9,16 +9,24 @@
   </head>
   <body>
     <form action="">
-      <img src="https://assets.hackclub.com/flag-orpheus-left.svg" alt="Hack Club" />
+      <!-- First Number -->
       <input type="number"
-        aria-label="Enter a number &lt; 1000"
-        placeholder="Enter a number &lt; 1000"
+      aria-label="First Number"
+        placeholder="First Number"
         autofocus
-        id="inputNum" />
-        <button type="button" class="do">Do it!</button>
-        <input type="reset" value="RESET">
-        <output class="output" id="output">0</output>
+        id="firstNum" />
+      <!-- End Number -->
+      <input type="number"
+      aria-label="End Number"
+      placeholder="End Number"
+      autofocus
+      id="endNum" />
+      <!-- Output & RESET -->
+      <button type="button" class="do">Calculate Result</button>
+      <input type="reset" value="RESET">
+      <output class="output" id="output">0</output>
     </form>
+    <img src="https://assets.hackclub.com/flag-orpheus-left.svg" alt="Hack Club" />
 
     <script src="main.js"></script>
   </body>

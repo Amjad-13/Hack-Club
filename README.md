@@ -1,5 +1,7 @@
 # Hack-Club Task
-A simple input field you have to enter a number which is not bigger than 1000 to not lag your computer and you will get the result of the sum between each number from one to the number you entered
+The task is to find the sum of numbers between 1 and a given number.
+We can calculate the output using the next equation: `n(n + 1) / 2`
 
-Made by Amjad
-STEM Gharbiya
+## Another Future
+I added another future that you can give me two number and calculate the sum between the two given numbers
+We can calculate the output using the next equation: `(a + b) * (b - a + 1) / 2`
